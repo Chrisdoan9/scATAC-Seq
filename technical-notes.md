@@ -35,4 +35,17 @@ So:
 |--------|----------------------------------------------------|
 | **U**  | How strongly each **peak** contributes to components |
 | **Σ**  | Importance of each component (**variance explained**) |
-| **Vᵗ** | How each **cell** expresses those components         |
+| **Vᵗ** | How each **cell** expresses those components         |  
+
+A motif is a short DNA sequence pattern (e.g., “TATA” or “CGCG”) that a transcription factor (TF) prefers to bind.
+
+
+Position Weight Matrix (PWM)
+| Position | A    | C    | G    | T    |
+|----------|------|------|------|------|
+| 1        | 0.9  | 0.05 | 0.03 | 0.02 |
+| 2        | 0.1  | 0.1  | 0.7  | 0.1  |
+| 3        | 0.25 | 0.25 | 0.25 | 0.25 |
+| 4        | 0.05 | 0.9  | 0.02 | 0.03 |
+
+Use Precomputed PWMs from Databases (Most Common JASPAR)

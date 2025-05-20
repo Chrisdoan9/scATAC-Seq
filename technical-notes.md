@@ -49,3 +49,7 @@ Position Weight Matrix (PWM)
 | 4        | 0.05 | 0.9  | 0.02 | 0.03 |
 
 Use Precomputed PWMs from Databases (Most Common JASPAR)
+
+I1, R1, R2, R3 fastq file  
+R1 is forward read, R2 is 16 bases feature barcode, R3 is reverse read  
+R1 or R3 only read part of the fragment from the start or end, not full, so we need pair end read to know the length and location of fragment.
